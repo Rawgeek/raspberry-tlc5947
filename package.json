@@ -1,0 +1,22 @@
+{
+  "name": "raspberry-tlc5947",
+  "version": "0.0.1",
+  "description": "Driver for TLC5943",
+  "main": "tlc5947.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Martin Berryman",
+  "license": "ISC",
+  "dependencies": {
+    "spi": "^0.2.0",
+    "wiring-pi": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Rawgeek/raspberry-tlc5947.git"
+  }
+}
