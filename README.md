@@ -7,6 +7,7 @@ Great thanks to madforce for his solution posted here: https://forums.adafruit.c
 Make sure you have python 2.7, GCC. All the things you need to build C++ and use Node-Gyp.
 
 # PinOut
+```
 All port 1
 Rpi TLC5947
 5V -> Vcc
@@ -15,10 +16,13 @@ MOSI (19) -> DIN
 SCLK (23) -> CLK
 CE0 (24) -> LAT
 GPIO6 (25) -> /OE (this can be hooked to GND for SPI but it does get toggled for BitBang)
+```
 
 # Running Tests
-`cd tests`
-`sudo node basicspi`
+```
+cd tests
+sudo node basicspi
+```
 
 
 # Additional Comments
